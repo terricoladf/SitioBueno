@@ -1,0 +1,32 @@
+ body{
+ background-color: rgb(209, 209, 209);
+ margin:10;
+}
+img{
+ max-width: 100%;
+ width: 90%;
+ height: auto;
+ display: block;
+ margin-top: 3%;
+ margin-left: auto;
+ margin-right: auto;
+}
+p {
+padding: 5%;
+text-align: justify;
+}
+.contenedor {
+ width:auto;
+ border:3px #000;
+ margin: auto;
+ height: 100vh;
+}
+
+.contenedor > div {
+ display: block;
+ background: #2f89fc;
+ border: 1px solid black; 
+}
+
+
+

@@ -1,0 +1,38 @@
+.contenedor {
+  display: grid;
+  grid-template-columns: 150px 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:  "menu   quien   skills"
+                        "menu   staff   servicios";
+                        
+  grid-gap:5px;                      
+                        
+                        
+}
+.contenedor .menu{
+ background: #444444;
+ grid-column-start: menu;
+ grid-column-end: menu;
+ grid-row: 1 / -1;
+}
+.contenedor .quien {
+ background: purple;
+ grid-column-start: quien;
+ grid-column-end: quien;
+  
+}
+.contenedor .skills {
+ background: #587972;
+ grid-column-start: skills;
+ grid-column-end: skills
+}
+.contenedor .staff {
+ background: #003272;
+ grid-column-start: staff;
+ grid-column-end: staff;
+}
+.contenedor .servicios {
+ background: #582100;
+ grid-column-start: servicios;
+ grid-column-end: servicios;
+}
